@@ -9,6 +9,7 @@ const BenefitsList: NextPage<BenefitsListType> = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch bg-white overflow-hidden flex flex-col items-start justify-start gap-2.5 max-w-full text-center text-29xl text-black font-montserrat ${className}`}
+      data-scroll-to="benefits-list"
     >
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center max-w-full mq750:gap-[30px]">
         <div className="self-stretch flex flex-row items-center justify-center py-10 px-0 box-border bg-[url('/benefits-container@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full">

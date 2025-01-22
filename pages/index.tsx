@@ -18,16 +18,17 @@ const EnglehartBoutiqueLaundary: NextPage = () => {
   return (
     <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start gap-2.5 leading-[normal] tracking-[normal]">
       <MainContent />
-      <section className="self-stretch bg-white overflow-hidden flex flex-row items-start justify-start flex-wrap content-start py-2.5 px-[545px] box-border max-w-full mq750:pl-[272px] mq750:pr-[272px] mq750:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
+      <section className="self-stretch bg-white overflow-hidden flex flex-row items-start justify-start flex-wrap content-start py-2.5 px-5 md:px-[272px] box-border max-w-full">
         <button
-          className="cursor-pointer [border:none] py-[23px] pl-[27px] pr-[25px] bg-deepskyblue flex-1 rounded-xl overflow-hidden flex flex-row items-start justify-start box-border max-w-full hover:bg-skyblue"
+          className="cursor-pointer border-none py-[23px] pl-[27px] pr-[25px] bg-deepskyblue flex rounded-xl overflow-hidden flex-row items-start justify-start box-border max-w-full hover:bg-skyblue lg:w-[500px] lg:h-[100px] mx-auto"
           onClick={onVisitUsTodayButtonClick}
         >
-          <b className="h-[42.7px] flex-1 relative text-9xl inline-block font-montserrat text-white text-center">
+          <b className="h-[42.7px] flex-1 relative text-5xl md:text-9xl inline-block font-montserrat text-white text-center">
             Visit Us Today
           </b>
         </button>
       </section>
+
       <section className="self-stretch bg-white overflow-hidden flex flex-row items-start justify-start flex-wrap content-start py-5 px-0 box-border max-w-full text-center text-29xl text-deepskyblue font-montserrat">
         <h1 className="m-0 flex-1 relative text-inherit tracking-[-0.02em] leading-[150%] inline-block italic font-bold font-[inherit] [text-shadow:1px_0_0_#fff,_0_1px_0_#fff,_-1px_0_0_#fff,_0_-1px_0_#fff] max-w-full mq450:text-10xl mq450:leading-[43px] mq1050:text-19xl mq1050:leading-[58px]">
           Where Your Laundry Time Becomes “Me Time”

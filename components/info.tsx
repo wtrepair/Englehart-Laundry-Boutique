@@ -1,11 +1,19 @@
 import { FC } from "react";
 import Image from "next/image";
+import { useCallback } from "react";
 
 export type InfoType = {
   className?: string;
 };
 
 const Info: FC<InfoType> = ({ className = "" }) => {
+    const onPolitisContainerClick = useCallback(() => {
+      const anchor = document.querySelector("[data-scroll-to='benefits-list']");
+      if (anchor) {
+        anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+    }, []);
+
   return (
     <section
       className={`flex flex-wrap items-start justify-start max-w-full text-left text-29xl text-gray-100 font-montserrat ${className}`}
@@ -41,7 +49,10 @@ const Info: FC<InfoType> = ({ className = "" }) => {
             </div>
           </div>
           {/* Button */}
-          <button className="py-4 px-10 bg-white rounded-xl hover:bg-gainsboro-100 text-black text-5xl font-outfit">
+          <button
+            className="py-4 px-10 bg-white rounded-xl hover:bg-gainsboro-100 text-black text-5xl font-outfit"
+            onClick={onPolitisContainerClick}
+          >
             Read More
           </button>
         </div>
