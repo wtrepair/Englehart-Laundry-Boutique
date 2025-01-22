@@ -49,7 +49,7 @@ const EnglehartBoutiqueLaundary: NextPage = () => {
         </h1>
       </section>
       <BenefitsList />
-      <section className="self-stretch bg-white overflow-hidden flex flex-col items-start justify-start pt-[29px] px-[13px] pb-[19px] box-border gap-5 max-w-full text-left text-29xl text-gray-200 font-inter">
+      <section className="self-stretch bg-white overflow-hidden flex flex-col items-start justify-start pt-[29px] px-[13px] pb-[19px] box-border gap-5 max-w-full text-left text-29xl text-gray-200 font-inter ml-12 mq450:ml-0 mq750:ml-4 mq750:mr-4 mq1050:ml-10">
         <div className="self-stretch flex flex-row items-start justify-start py-0 pl-2.5 pr-[9px] box-border max-w-full">
           <h1 className="m-0 flex-1 relative text-inherit tracking-[-0.02em] leading-[150%] font-bold font-[inherit] inline-block max-w-full mq450:text-10xl mq450:leading-[43px] mq1050:text-19xl mq1050:leading-[58px]">
             Easy to Use, Built for Convenience
