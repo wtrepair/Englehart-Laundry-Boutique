@@ -43,7 +43,7 @@ const EnglehartBoutiqueLaundary: NextPage = () => {
         </div>
       </section>
       <Photos1 />
-      <section className="self-stretch overflow-hidden flex flex-row items-start justify-start flex-wrap content-start pt-[262.5px] px-[196px] pb-[862.5px] box-border bg-[url('/benefits-picture@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-[64px] text-gray-100 font-montserrat lg:pt-[171px] lg:pb-[561px] lg:box-border mq750:pt-[111px] mq750:px-[98px] mq750:pb-[365px] mq750:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
+      <section className="self-stretch overflow-hidden flex flex-row items-start justify-start flex-wrap content-start pt-[220px] px-[196px] pb-[862.5px] box-border bg-[url('/benefits-picture@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-[64px] text-gray-100 font-montserrat lg:pt-[25px] lg:pb-[561px] lg:box-border mq750:pt-[11px] mq750:px-[98px] mq750:pb-[365px] mq750:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
         <h1 className="m-0 flex-1 relative text-inherit font-bold font-[inherit] inline-block max-w-full mq450:text-19xl mq1050:text-[51px]">
           THE BENEFITS OF USING A COIN LAUNDROMAT VS. HOME WASHING
         </h1>
