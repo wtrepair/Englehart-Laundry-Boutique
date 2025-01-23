@@ -41,7 +41,7 @@ const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
           <a className="[text-decoration:none] relative font-medium text-[inherit]">
             Englehart Laundry Boutique
           </a>
-          <div className="w-[236px] relative font-medium font-montserrat whitespace-pre-wrap inline-block shrink-0">
+          <div className="w-[236px] relative font-medium font-montserrat whitespace-pre-wrap inline-block shrink-0 mq450:w-[200px]">
             +1 (705) 492-8910
           </div>
         </div>
