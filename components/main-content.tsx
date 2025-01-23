@@ -141,7 +141,7 @@ const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
       <div className="self-stretch bg-white overflow-hidden flex flex-col items-start justify-start">
         <div className="self-stretch h-[845px] overflow-hidden shrink-0 flex flex-col items-end justify-start relative bg-[url('/hero-image-container@3x.png')] bg-cover bg-no-repeat bg-[top]">
           <Image
-            className="w-[401px] h-[323px] absolute !m-[0] top-[0px] right-[0px] object-cover"
+            className="absolute top-0 right-0 object-cover max-w-full h-auto mq750:w-[250px] mq750:h-[200px] mq450:w-[150px] mq450:h-[150px]"
             loading="lazy"
             width={401}
             height={323}
