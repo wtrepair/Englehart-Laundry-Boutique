@@ -7,7 +7,7 @@ export type DesktopType = {
 const Desktop: NextPage<DesktopType> = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-start justify-start pt-[39px] px-[157px] pb-[400px] box-border bg-[url('/desktop--7@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-9xl text-gray-100 font-montserrat md:pt-[25px] md:pb-[260px] md:px-[78px] sm:pt-5 sm:pb-[169px] sm:px-5 ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-start justify-start pt-[39px] px-[157px] mq750:px-5 pb-[400px] box-border bg-[url('/desktop--7@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-9xl text-gray-100 font-montserrat md:pt-[25px] md:pb-[260px] md:px-[78px] sm:pt-5 sm:pb-[169px] sm:px-5 ${className}`}
     >
       <div className="self-stretch flex flex-row items-center justify-center flex-wrap content-center py-0 px-[74px] box-border gap-x-[100px] gap-y-[266px] lg:gap-[50px] md:gap-[25px] md:px-[37px] sm:gap-y-[50px] sm:gap-x-[15px]">
         <div className="w-[277px] flex flex-row items-center justify-start sm:w-full">
@@ -28,11 +28,11 @@ const Desktop: NextPage<DesktopType> = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex-1 flex flex-col items-start justify-start gap-[23px] min-w-[335px] max-w-full text-left text-29xl sm:text-center sm:items-center">
-          <h1 className="m-0 relative text-inherit font-bold font-[inherit] md:text-19xl sm:text-10xl">
+        <div className="flex-1 flex flex-col items-start justify-start gap-[23px] min-w-[310px] max-w-full text-left text-29xl sm:text-center sm:items-center">
+          <h1 className="m-0 relative text-inherit font-bold font-[inherit] md:text-19xl sm:text-10xl  mq450:text-9xl">
             CLEANING DONE RIGHT
           </h1>
-          <div className="relative text-xl text-black md:text-lg sm:text-base">
+          <div className="relative text-xl text-black md:text-lg sm:text-base mq450:text-sm">
             We provide a service that ensures your clothes are thoroughly
             cleaned with ease and efficiency. Enjoy the convenience of using
             high-quality machines at incredibly affordable prices.
