@@ -53,7 +53,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
             Business Hours
           </h1>
           <div className="text-6xl text-black font-medium sm:text-xl">
-            Monday-Sunday: 7pm-10pm
+            Monday-Sunday: 7am-10pm
           </div>
         </div>
       </div>
