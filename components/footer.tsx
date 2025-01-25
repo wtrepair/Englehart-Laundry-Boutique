@@ -37,7 +37,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
           <div className="text-6xl text-black sm:text-xl">
             <div className="font-medium">+1 (705) 492-8910</div>
             <div className="font-medium">
-              <p className="m-0">41 Third Avenue</p>
+              <p className="m-0">41 Third St.</p>
               <p className="m-0">Englehart, ON</p>
               <p className="m-0">P0J 1H0</p>
             </div>
